@@ -10,6 +10,10 @@
         <activity
             android:name=".SplashActivity"
             android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="ANDROID.INTENT.ACTION.MAIN" />
+                <category android:name="ANDROID.INTENT.CATEGORY.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
